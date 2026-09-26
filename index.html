@@ -61,6 +61,8 @@
             display: inline-block;
         }
 
+        
+
 
         .serif-title { font-family: 'Playfair Display', serif; }
 
@@ -71,10 +73,10 @@
             font-style: normal;
         }
 
-        .initials-font_y { 
+       .initials-font_y { 
             font-family: 'Italianno', cursive;  
-            color: #ffffff; /* Белый цвет букв */
-            text-shadow: none; /* Без свечений */
+            color: #ffffff;
+            text-shadow: none;
         }
 
 
@@ -573,6 +575,15 @@
                 align-items: flex-start; 
                 text-align: left;
             }
+             .hero-section1 {
+                align-items: flex-start; 
+                text-align: left;
+                padding-top: 10vh; /* Отступ выше для мобильных устройств */
+            }
+            .hero-content {
+                padding-left: 5%;
+                max-width: 90%;
+            }
             .hero-content {
                 /* Сохраняем небольшой отступ слева для мобильных */
                 padding-left: 5%;
@@ -641,7 +652,7 @@
 <body>
 
     <!-- Шапка -->
-   <header class="hero-section" data-aos="fade-in">
+   <header class="hero-section1" data-aos="fade-in">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <div data-aos="fade-down" data-aos-duration="1500">
